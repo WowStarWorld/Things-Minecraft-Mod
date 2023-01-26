@@ -1,0 +1,12 @@
+{
+  "item.things.water_breathing_charm": "瓶装空气",
+  "item.things.water_breathing_charm.tooltip": "§b§o佩戴时每游戏刻重置氧气值",
+  "item.things.flight_charm": "风之羽毛",
+  "item.things.flight_charm.tooltip": "§b§o佩戴时允许角色飞行（每20游戏刻消耗1经验值）",
+  "gui.things.enabled": "§2已启用",
+  "gui.things.disabled": "§4已禁用",
+  "itemGroup.things.item_group": "更多物品 ",
+  "trinkets.slot.things.charm0": "更多物品 饰品槽1",
+  "trinkets.slot.things.charm1": "更多物品 饰品槽2",
+  "trinkets.slot.things.charm2": "更多物品 饰品槽3"
+}

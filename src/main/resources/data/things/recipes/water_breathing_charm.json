@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PGP",
+    "GBG",
+    "PGP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:pufferfish"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "B": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "things:water_breathing_charm",
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "things",
+  "version": "${version}",
+
+  "name": "Things",
+  "description": "",
+  "authors": [
+    "StarWorld"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/things/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "top.sw.things.Things"
+    ]
+  },
+  "mixins": [
+    "things.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17",
+    "trinkets": ">=3.5.0"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

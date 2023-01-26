@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PGP",
+    "GBG",
+    "PGP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:feather"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "B": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "things:flight_charm",
+    "count": 1
+  }
+}
