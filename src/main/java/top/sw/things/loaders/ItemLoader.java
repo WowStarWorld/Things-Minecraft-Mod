@@ -1,8 +1,7 @@
 package top.sw.things.loaders;
 
 import net.minecraft.item.Item;
-import net.minecraft.registry.Registry;
-import net.minecraft.registry.Registries;
+import net.minecraft.registry.*;
 
 import static top.sw.things.Utils.identifier;
 

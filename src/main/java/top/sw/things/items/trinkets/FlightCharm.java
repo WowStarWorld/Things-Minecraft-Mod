@@ -35,11 +35,10 @@ public class FlightCharm extends SwitchableTrinket {
             player.sendAbilitiesUpdate();
             return;
         }
-        int nextExp = player.getNextLevelExperience();
         if (abilities.flying && (entity.world.getTime() % 20 == 0)) {
             if (player.experienceProgress == 0) {
                 player.addExperienceLevels(-1);
-                player.addExperience(nextExp - 1);
+                player.addExperience(player.getNextLevelExperience() - 1);
             } else if (player.experienceLevel != 0) player.addExperience(-1);
 
         }
