@@ -5,8 +5,11 @@
   "item.things.flight_charm.tooltip": "§b§o佩戴时允许角色飞行（每20游戏刻消耗1经验值）",
   "gui.things.enabled": "§2已启用",
   "gui.things.disabled": "§4已禁用",
+  "gui.things.energy_storage": "§6能量存储: §7%s / %s",
   "itemGroup.things.item_group": "更多物品 ",
   "trinkets.slot.things.charm0": "更多物品 饰品槽1",
   "trinkets.slot.things.charm1": "更多物品 饰品槽2",
-  "trinkets.slot.things.charm2": "更多物品 饰品槽3"
+  "trinkets.slot.things.charm2": "更多物品 饰品槽3",
+  "item.things.portable_solar_generator": "便携式太阳能发电机",
+  "item.things.portable_solar_generator.tooltip": "§b§o在玩家物品栏中按当前光照强度减8 (光照强度大于8时生效）产生能量，每游戏刻执行一次"
 }

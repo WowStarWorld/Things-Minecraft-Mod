@@ -1,4 +1,4 @@
-package top.sw.things.items.trinkets;
+package top.sw.things.item.trinkets;
 
 import dev.emi.trinkets.api.SlotReference;
 import net.minecraft.client.item.TooltipContext;

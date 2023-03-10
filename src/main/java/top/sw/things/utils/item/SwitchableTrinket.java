@@ -8,6 +8,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.text.Text;
 import net.minecraft.world.World;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import dev.emi.trinkets.api.TrinketItem;
 import java.util.List;
@@ -15,7 +16,7 @@ import java.util.List;
 
 public class SwitchableTrinket extends TrinketItem {
 
-    public SwitchableTrinket (Settings settings) {
+    public SwitchableTrinket (@NotNull Settings settings) {
         super(settings.maxDamage(Integer.MAX_VALUE));
     }
 

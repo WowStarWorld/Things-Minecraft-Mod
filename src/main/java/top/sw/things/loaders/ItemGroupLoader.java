@@ -6,16 +6,22 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 
-
 import static top.sw.things.Utils.identifier;
 
 public class ItemGroupLoader {
     public static ItemGroup THINGS_GROUP;
-    public static Item[] THINGS_GROUP_ITEMS = {ItemLoader.WATER_BREATHING_CHARM, ItemLoader.FLIGHT_CHARM};
+
+    public static Item[] THINGS_GROUP_ITEMS = {
+        ItemLoader.WATER_BREATHING_CHARM, ItemLoader.FLIGHT_CHARM, ItemLoader.PORTABLE_SOLAR_GENERATOR
+    };
+
+    public static boolean Loaded = false;
 
     public ItemGroupLoader () {
-        this.load();
-        this.putItems();
+        if (!Loaded) {
+            this.load();
+            this.putItems();
+        }
     }
 
     public void putItems () {

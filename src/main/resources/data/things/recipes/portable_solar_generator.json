@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GEF",
+    "GFG",
+    "FEG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "F": {
+      "item": "minecraft:diamond"
+    },
+    "E": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "things:portable_solar_generator",
+    "count": 1
+  }
+}

@@ -2,11 +2,14 @@
   "item.things.water_breathing_charm": "Air Bottle",
   "item.things.water_breathing_charm.tooltip": "§b§oReset oxygen value every game moment when wearing",
   "item.things.flight_charm": "Feather of Wind",
-  "item.things.flight_charm.tooltip": "§b§oAllow the character to fly when wearing it (consume 1 experience every 20 game minutes)",
+  "item.things.flight_charm.tooltip": "§b§oAllow the player to fly when wearing it (consume 1 experience every 20 game minutes)",
   "gui.things.enabled": "§2Enabled",
   "gui.things.disabled": "§4Disabled",
+  "gui.things.energy_storage": "§6Stored energy: §7%s / %s",
   "itemGroup.things.item_group": "Things",
   "trinkets.slot.things.charm0": "Things Trinket Slot 1",
   "trinkets.slot.things.charm1": "Things Trinket Slot 2",
-  "trinkets.slot.things.charm2": "Things Trinket Slot 3"
+  "trinkets.slot.things.charm2": "Things Trinket Slot 3",
+  "item.things.portable_solar_generator": "Portable Solar Generator",
+  "item.things.portable_solar_generator.tooltip": "§b§oIn the player's item bar, valid when the light intensity is greater than 8"
 }

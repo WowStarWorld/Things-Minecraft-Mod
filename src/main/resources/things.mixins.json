@@ -3,11 +3,7 @@
   "minVersion": "0.8",
   "package": "top.sw.things.mixins",
   "compatibilityLevel": "JAVA_17",
-  "mixins": [
-  ],
-  "client": [
-    "Mixins"
-  ],
+  "mixins": [],
   "injectors": {
     "defaultRequire": 1
   }

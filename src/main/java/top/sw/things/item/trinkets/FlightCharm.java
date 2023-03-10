@@ -1,4 +1,4 @@
-package top.sw.things.items.trinkets;
+package top.sw.things.item.trinkets;
 
 import dev.emi.trinkets.api.SlotReference;
 import net.minecraft.client.item.TooltipContext;
@@ -12,6 +12,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Rarity;
 import net.minecraft.world.World;
 
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -20,7 +21,7 @@ import top.sw.things.utils.item.SwitchableTrinket;
 
 public class FlightCharm extends SwitchableTrinket {
 
-    public FlightCharm (Settings settings) {
+    public FlightCharm (@NotNull Settings settings) {
         super(settings.rarity(Rarity.RARE));
     }
 
